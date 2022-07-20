@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1440px;
+    max-height: 1056px;
+
+  
+}
+.card {
+    max-width: 450px;
+    margin: 20px auto; 
+    border-radius: 20px;
+    box-shadow: 0px 10px 18px rgb(164, 150, 150);
+
+}
+.order {
+    width: 80%;
+    margin: auto;
+}
+.order h1 {
+    color: hsl(223, 47%, 23%);
+}
+.image img {
+    border-radius: 20px 20px 0px 0px;
+}
+.plan {
+    display: grid;
+    grid-auto-flow: column;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 19px;
+}
+
+.text {
+    text-align: left;
+
+}
+img {
+    margin: auto;
+}
+   h2 {
+    margin-bottom: 5px;
+    color: hsl(223, 47%, 23%);
+   }
+   p {
+    margin-top: 0px;
+    color: hsl(224, 23%, 55%);
+   }
+   .plan a {
+    margin: auto;
+    color: hsl(245, 75%, 52%);
+   }
+
+  
+.button {
+    width: 80%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-color:hsl(245, 75%, 52%);
+    box-shadow: 0px 5px 13px hsl(224, 23%, 55%);
+    
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+      
+
+}
+.cancel a {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.attribution {
+    margin-top: 20px;
+
+
+}
